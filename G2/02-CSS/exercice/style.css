@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    padding: 20px;
+    background-color: lightgrey;
+}
+article{
+    margin: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+nav{
+    margin-bottom: 15px;
+    border: 1px solid orange;
+    background-color: lightcyan;
+}
+ul{
+    padding: 10px;
+    text-decoration: none;
+}
+li{
+    display: inline; 
+    margin-right: 10px;
+}
+header h1{
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+section{
+    margin: 15px;
+    padding: 15px;
+    background-color: lightyellow;
+    border: 1px solid orange;
+}
+
+header > ul{
+    border: 10px dashed red;
+}
+
+section~p{
+    font-style: italic;
+    font-size: 10px;
+}
+
+article:last-child{
+    font-weight: bolder;
+    background-color: red;
+}
+p::first-line{
+    color: red;
+}
+h1:hover{
+    color: blue;
+    font-family: "Science Gothic";
+    background-color: burlywood;
+}
+
+div:hover{
+    background-color: lightblue;
+}

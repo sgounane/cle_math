@@ -1,0 +1,53 @@
+*{
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+body{
+  
+    margin: 40px;
+}
+
+div{
+    padding: 20px;
+    border: 2px solid rgb(0, 8, 255);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #333333;
+    line-height: 2;
+}
+h1{
+    color: blue;
+}
+#gdtxt{
+    font-size: 1em;
+}
+.important{
+
+    font-weight: bold;
+}
+#titre{
+    text-decoration: underline;
+}
+span{
+    color: green;
+    font-size: 20px;
+    display: inline-block;
+}
+img[alt="logo"]{
+    width: 100px;
+    height: 100px;
+}
+/*
+.outer > p{
+    background-color: yellow;
+}
+*/
+
+p ~ p{
+    background-color: darkblue;
+}

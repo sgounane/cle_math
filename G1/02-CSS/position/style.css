@@ -1,0 +1,76 @@
+@keyframes myAnima {
+from {background-color: red;}
+to {background-color: yellow;}
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+aside, section{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+footer, header{
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    margin: 20px;
+
+    top:100px;
+    height: 400px;
+    
+}
+aside{
+    position:sticky;
+    top: 100px;
+    width: 30%;
+    height: 80%;
+}
+article{
+    width: 60%;
+    animation-name: myAnima;
+    animation-duration: 10s;
+}
+
+footer, header{
+    background-color: gray;
+}
+header{
+    position: fixed;
+    top:0px;
+    width: 100vw;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+}
+#sec2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#sec2 div{
+    background-color: rgb(255, 208, 0);
+    font-size: large;
+    color: white;
+    width: 40px;
+    margin: 10px;
+    padding: 40px;
+    box-shadow: 4px 4px gray;
+    border-radius: 20px;
+    text-align: center;
+    transition: background-color 6s, width 2s;
+    
+}
+#sec2 div:hover{
+    transform: rotate(10deg);
+    background-color: brown;
+    width: 100px;
+    cursor: pointer;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ma page personnelle - Introduction à HTML</title>
+</head>
+<body>
+
+  <!-- =========================
+       1. TITRE PRINCIPAL
+  ========================== -->
+  <h1>Bienvenue sur ma page</h1>
+  <p>Cette page a été réalisée dans le cadre d’un <strong>TP d’introduction à HTML</strong>.</p>
+
+  <hr> <!-- Ligne de séparation -->
+
+  <!-- =========================
+       2. IMAGE DE PROFIL
+  ========================== -->
+  <h2>Ma photo</h2>
+  <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" 
+       alt="Photo de profil" 
+       width="100">
+
+  <hr>
+
+  <!-- =========================
+       3. PRÉSENTATION PERSONNELLE
+  ========================== -->
+  <h2>À propos de moi</h2>
+  <p>
+    Bonjour ! Je m’appelle <strong>Said</strong> et je découvre le développement web.
+    J’aime apprendre de nouvelles technologies, comprendre comment fonctionnent les sites
+    et créer des projets interactifs. Ce TP me permet d’apprendre les bases du langage 
+    <em>HTML</em> (HyperText Markup Language).
+  </p>
+
+  <hr>
+
+  <!-- =========================
+       4. MES PASSIONS
+  ========================== -->
+  <h2>Mes passions</h2>
+
+  <!-- Liste non ordonnée -->
+  <ul>
+    <li>Programmation</li>
+    <li>Internet des objets (IoT)</li>
+    <li>Musique</li>
+    <li>Lecture</li>
+    <li>Voyages</li>
+  </ul>
+
+  <hr>
+
+  <!-- =========================
+       5. LIEN EXTERNE
+  ========================== -->
+  <h2>Lien utile</h2>
+  <p>
+    Pour approfondir mes connaissances en développement web, je consulte souvent 
+    <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">
+      MDN Web Docs (Mozilla)
+    </a>.
+  </p>
+
+  <hr>
+
+  <!-- =========================
+       6. TABLEAU EXEMPLE
+  ========================== -->
+  <h2>Exemple de tableau</h2>
+  <table border="1" cellpadding="5">
+    <tr>
+      <th>Nom</th>
+      <th>Âge</th>
+      <th>Ville</th>
+    </tr>
+    <tr>
+      <td>Ali</td>
+      <td>20</td>
+      <td>Casablanca</td>
+    </tr>
+    <tr>
+      <td>Fatima</td>
+      <td>22</td>
+      <td>Rabat</td>
+    </tr>
+    <tr>
+      <td>Youssef</td>
+      <td>25</td>
+      <td>Marrakech</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <!-- =========================
+       7. FORMULAIRE DE CONTACT
+  ========================== -->
+  <h2>Me contacter</h2>
+  <form action="#" method="post">
+    <label for="nom">Nom :</label><br>
+    <input type="text" id="nom" name="nom" placeholder="Entrez votre nom"><br><br>
+
+    <label for="email">Email :</label><br>
+    <input type="email" id="email" name="email" placeholder="Entrez votre email"><br><br>
+
+    <label for="message">Message :</label><br>
+    <textarea id="message" name="message" rows="4" cols="40" placeholder="Votre message..."></textarea><br><br>
+
+    <input type="submit" value="Envoyer">
+  </form>
+
+  <hr>
+
+  <!-- =========================
+       8. PIED DE PAGE
+  ========================== -->
+  <footer>
+    <p>&copy; 2025 - Page créée dans le cadre du TP d’introduction à HTML.</p>
+  </footer>
+
+</body>
+</html>

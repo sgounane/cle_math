@@ -1,0 +1,115 @@
+@keyframes myAnima {
+from {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+to {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+}
+#titre{
+    background-color: blanchedalmond;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    animation-name: myAnima;
+    animation-duration: 2s;
+}
+div{
+    border: 1px solid black;
+    padding: 0px;
+    margin: 10px;
+}
+
+.inner{
+    padding: 20px;
+    position: relative;
+}
+
+#outer{
+    margin: auto;
+    position: relative;
+    width: 50%;
+    padding: 0;
+}
+.inner p:last-child{
+    width: 40%;
+    text-align: justify;
+    border: 1px solid orange;
+    background-color: bisque;
+    padding: 6px;
+    margin: 6px;
+    height: 60px;
+    overflow: scroll;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+
+}
+
+#d1, #d2,#d3,#d4{
+    width: 30px;
+    padding: 20px;
+    background-color: orange;
+}
+#firstdiv{
+    position: sticky;
+    top:100px;
+    background-color: whitesmoke;
+}
+#box{
+    margin: auto;
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    top: 20px;
+    right: 20px;
+    animation-name: myAnima;
+    animation-duration: 10s;
+}
+#d1{
+position: absolute;
+top:0;
+left:0;
+}
+#d2{
+    position: absolute;
+    bottom: 0;
+    left:0;
+
+}
+#d3{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+#d4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.flx{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item{
+    width: 40px;
+    padding: 20px;
+    background-color: pink;
+    box-shadow: 2px 2px;
+    transition: background-color 4s, width 4s , height 2s;
+
+}
+
+.item:hover{
+    width: 60px;
+    background-color: blue;
+}
