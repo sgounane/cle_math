@@ -1,0 +1,30 @@
+#cmd{
+    border: 1px solid orange;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+#calculator{
+    border: 1px solid orange;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+}
+#keyboard button{
+    padding: 10px;
+    margin: 2px;
+}
+#keyboard{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#input{
+    width: 80%;
+    margin: auto;
+
+    border: 1px solid black;
+    padding: 10px;
+}

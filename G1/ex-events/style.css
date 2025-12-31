@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+}
+.outer{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.inner{
+    position: absolute;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}

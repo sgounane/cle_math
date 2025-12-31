@@ -1,0 +1,9 @@
+.btn{
+    border: 1px solid black;
+    width: fit-content;
+    padding: 20px;
+    margin: 20PX;
+}
+.active{
+    background-color: lightblue;
+}
